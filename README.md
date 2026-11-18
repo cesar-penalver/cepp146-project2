@@ -8,9 +8,9 @@
 
 | Member | Student number | Presentation role | GitHub profile |
 |---|---|---|---|
-| [Member 1] | [ID] | 2026 event and definitions | [username] |
-| [Member 2] | [ID] | Survey, research and data | [username] |
-| [Member 3] | [ID] | Demo, limits and discussion | [username] |
+| [Member 1] | 2026 event and definitions | Cesar |
+| [Member 2] | Survey, research and data | Jasmeen |
+| [Member 3] | Demo, limits and discussion | Prashanthi|
 
 > Adjust speaking roles and the table for your actual group size (2–4). Each person must appear and speak in the finished video.
 
