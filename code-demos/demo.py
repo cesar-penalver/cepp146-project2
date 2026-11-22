@@ -1,3 +1,4 @@
 def calculate_average(numbers):
-    """Return average of numbers."""
+    if not numbers:
+        raise ValueError("Cannot average an empty list")
     return sum(numbers) / len(numbers)
