@@ -1,26 +1,22 @@
-# Demo Results - Prashanthi (Member 3) - Issue #7
+# Demo Results - Prashanthi (Member 3)
 
-## Prompt given to the AI agent
-"Fix calculate_average in demo.py so it does not crash on an empty list. Keep the normal case working. Show me the diff."
+## Prompt
+"Fix calculate_average so it does not crash on empty list. Do not return a misleading value."
 
-## Test BEFORE agent fix
+## First AI fix - WRONG
+AI returned 0 for empty list.
+Test PASSED but fix was WRONG - 0 hides "no data" as real average.
+
+## Corrected fix
+Changed to: raise ValueError("Cannot average an empty list")
+
+## Test AFTER correction
 - test_normal: PASSED
-- test_empty_list: FAILED - ZeroDivisionError: division by zero
+- test_empty_list: PASSED - correctly raises ValueError
 - test_single_number: PASSED
 
-## What the agent changed
-- Added check: if not numbers: return 0
-- I inspected the diff before approving.
-
-## Test AFTER agent fix
-- test_normal: PASSED
-- test_empty_list: PASSED after fix
-- test_single_number: PASSED
-
-## What the agent MISSED
-- The agent fixed the crash but did not explain why returning 0 is a design choice.
-- I had to add the empty-list test myself.
-- Human still needed to check the edge case.
+## What I learned
+Passing tests does not mean correct. I had to check the diff for meaning, not just syntax.
 
 ## Workflow we used
 specify -> agent edits -> run tests -> inspect diff -> human approval
