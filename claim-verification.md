@@ -20,7 +20,7 @@
 
 | Date | Member | Tool / source | Research action | AI suggestion checked? | Change made / correction |
 |---|---|---|---|---|---|
-| [date] | [name] | [e.g., ChatGPT + primary source S2] | [what you asked/read] | [how verified] | [what changed] |
-| [date] | [name] | [tool] | [action] | [verification] | [result] |
+| [27-11-26] | [jasmeen kaur] | [chatgpt+jetbrainsofficial source(S2)] | [verified the 90%weekly and 68% daily AI coding-agent adoption statistics] | [yes, checked against the original source] | [Confirmed that the statistics refer to surveyed professional developers, not all developers worldwide.] |
+| [27-11-26] | [jasmeen kaur] | [	ChatGPT + NBER Working Paper S3] | [Checked the productivity estimates for commits, projects and software releases.] | [Yes, checked against the NBER paper] | [Clarified that +240% commits, +80% projects and +30% releases are estimated cumulative effects, not guaranteed productivity gains.] |
 
 **Reflection tip:** Write down one real instance where an AI answer was inaccurate or incomplete, then show the source or test that exposed it. Do not invent an error just to fill section B3.
