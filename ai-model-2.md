@@ -10,8 +10,8 @@ Claude [fill in actual model/version and date; must differ from Model 1]
 
 Please act as an independent, constructive reviewer of a team project in an introductory college Computer Programming and Analysis course. I want a careful evaluation, not encouragement without evidence. The 2026 current-event topic is how coding agents change the software-development workflow. Review our argument, visual demonstration, sources, student contributions, and how critically we used AI tools.
 
-Public repository: [REPLACE_WITH_PUBLIC_GITHUB_REPOSITORY_URL]  
-Public 2:30–3:00-minute video: [REPLACE_WITH_PUBLIC_YOUTUBE_URL]
+Public repository: https://github.com/cesar-penalver/cepp146-project2
+Public 2:30–3:00-minute video: NOT UPLOADED YET
 
 Start by writing which submitted materials you could actually inspect. If you cannot access the video, do not guess narration, duration or appearance. If GitHub commits, Issues, pull requests or Discussions are unavailable, label collaboration unverified. Fact-check the difference between a vendor announcement, a self-reported JetBrains adoption survey, and NBER's observational estimates. Explain where our interpretation is stronger than the evidence warrants.
 
